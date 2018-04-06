@@ -135,10 +135,23 @@ header{
             border-right: none;
         }
 nav{
-    background: red;
+    border-top: 1px solid #eceef4;
+}
+nav ul{
+    margin-left: 21%;
 }
 nav ul li {
     display: inline-block;
+    margin-right: 20px;
+}
+nav ul a{
+    color: #6d6e71;
+    background: white;
+    display: inline-block;
+    padding-top: 20px;
+    height: 40px;
+    border-right: 1px solid #eceef4;
+    margin: 0 10px;
 }
 .jumbotron {
     height: 884px;
