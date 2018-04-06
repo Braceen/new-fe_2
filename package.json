@@ -1,0 +1,28 @@
+{
+  "name": "fe2__new_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braceen/FE2_common_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Braceen/FE2_common_project/issues"
+  },
+  "homepage": "https://github.com/Braceen/FE2_common_project#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-cssimport": "^6.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-import-css": "^0.1.3",
+    "gulp-pug": "^3.3.0"
+  }
+}

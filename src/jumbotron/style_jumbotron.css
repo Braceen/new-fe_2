@@ -1,0 +1,65 @@
+.company {
+    height: 884px;
+    background-image: url("img/lets.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sign {
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 273.5px;
+    width: 90px;
+}
+h1 {
+    padding-top: 245px;
+    padding-left: 615px;
+    font-size: 58px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 70px black;
+}
+.company p {
+    margin-top: -6px;
+    padding-left: 720px;
+    font-size: 45px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: white;
+    text-shadow: 1px 1px 30px black;
+}
+.likes {
+    margin-left: 825px;
+    margin-top: 141px;
+    display: grid;
+    grid-template-columns: repeat(7, 107px);
+    grid-template-rows: 176px 65px;
+}
+.lets_art {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.lets_art_green {
+    grid-column: 1/4;
+    grid-row: 2;
+    opacity: 0.7;
+}
+.lets_phone {
+    grid-column: 4/6;
+    grid-row: 1;
+}
+.lets_phone_yellow {
+    grid-column: 4/6;
+    grid-row: 2;
+    opacity: 0.7;
+}
+.lets_arrow {
+    grid-column: 7;
+    grid-row: 1;
+}
+.lets_arrow_grey {
+    grid-column: 7;
+    grid-row: 1;
+    margin-top: 100px;
+    margin-left: 45px;
+}

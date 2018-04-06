@@ -1,0 +1,273 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*СТИЛИ ДЛЯ HEADER */
+header{
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+    header .links{
+        width: 41.5%;
+        margin-left: 21%;
+    }
+    header .top-nav{
+        background: #eceef4;
+        height: 45px;
+        position: relative;
+    }
+        .top-nav ul {
+            width: 28%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .top-nav ul li{
+            display: inline-block;
+            width: 98px;
+            height: 24px;
+            background: #fff;
+            text-align: center;
+            border-radius: 3px;
+            align-items: center;
+            margin-top: 5px;
+            padding-top: 8px;
+            color: #6d6e71;
+            margin-right: 5px;
+
+        }
+        .top-nav ul li a {
+            margin-left: 10px;
+            color: #6d6e71;
+        }
+        .ion-social-facebook{
+            color: #2b75b2;
+        }
+        .ion-social-twitter{
+            color: #1faae2;
+        }
+        .ion-social-instagram-outline{
+            color: #26658e;
+        }
+        .ion-social-googleplus-outline{
+            color: #dd4070;
+        }
+        .social{
+            font-size: 22px;
+            margin-left: 66%;
+            position: absolute;
+            top: 0;
+        }
+        .social div{
+            display: inline-block;
+            border-left: 1px solid #dee0e6;
+            height: 15px;
+            padding: 15px;
+        }
+
+    header .logo-nav .logo{
+        background: url("img/pixel.png");
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 400px;
+        text-align: center;
+        color: #3687c4;
+        font-size: 44px;
+        margin-left: 20%;
+        margin-top: 60px;
+        display: inline-block;
+    }
+        header .logo-nav .logo p{
+            margin-top: 23px;
+        }
+        header .logo-nav{
+            height: 200px;
+        }
+        header .border_text{
+            background: url("img/logo-border-text.png");
+            background-repeat: no-repeat;
+            width: 230px;
+            height: 62px;
+        }
+        .call{
+            float: right;
+            margin-right: 21%;
+            margin-top: 50px;
+            position: relative;
+        }
+        header .call_links{
+            position: absolute;
+            color: #6d6e71;
+            top: 0;
+            left: 33px;
+        }
+        .call_links p{
+            margin-top: 18px;
+        }
+        .logo-nav_links{
+            font-size: 35px;
+            font-weight: bold;
+            width: 220px;
+            margin-left: 14px;
+        }
+        .ion-ios-location-outline{
+            color: #1faae2;
+        }
+        .logo-nav_links a{
+            border-right: 1px solid #bcbec3;
+            margin-right: 10px;
+            color: #6d6e71;
+        }
+        .logo-nav_links i{
+            margin: 18px;
+        }
+        .logo-nav_links a:last-child{
+            border-right: none;
+        }
+
+
+header nav{
+        height: 85px;
+        background: #342F85;
+        }
+.company {
+    height: 884px;
+    background-image: url("img/lets.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sign {
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 273.5px;
+    width: 90px;
+}
+h1 {
+    padding-top: 245px;
+    padding-left: 615px;
+    font-size: 58px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 70px black;
+}
+.company p {
+    margin-top: -6px;
+    padding-left: 720px;
+    font-size: 45px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: white;
+    text-shadow: 1px 1px 30px black;
+}
+.likes {
+    margin-left: 825px;
+    margin-top: 141px;
+    display: grid;
+    grid-template-columns: repeat(7, 107px);
+    grid-template-rows: 176px 65px;
+}
+.lets_art {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.lets_art_green {
+    grid-column: 1/4;
+    grid-row: 2;
+    opacity: 0.7;
+}
+.lets_phone {
+    grid-column: 4/6;
+    grid-row: 1;
+}
+.lets_phone_yellow {
+    grid-column: 4/6;
+    grid-row: 2;
+    opacity: 0.7;
+}
+.lets_arrow {
+    grid-column: 7;
+    grid-row: 1;
+}
+.lets_arrow_grey {
+    grid-column: 7;
+    grid-row: 1;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+.whyWe, .whatWe{
+    display: grid;
+    grid-template-columns: 570px 570px;
+    justify-content: center;
+    grid-column-gap: 50px;
+}
+.whyWe {
+    margin-bottom: 180px;
+}
+.whyWe_ISAMA {
+    grid-column: 1;
+}
+.whyWe_exist {
+    grid-column: 2;
+}
+.whyWe img, .whatWe img {
+    float: left;
+}
+.whyWe h3 {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 26px;
+    color: #393b3c;
+    margin-left: 145px;
+}
+.whyWe p {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #393b3c;
+    margin-left: 145px;
+}
+.whatWe h3  {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 26px;
+    color: #393b3c;
+    margin-left: 145px;
+}
+.whatWe p {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: #393b3c;
+    margin-left: 145px;
+}
+.border {
+    margin-left: 400px;
+}
+.whatWeDo {
+    font-family: "Open Sans";
+    color: #393b3c;
+    height: 200px;
+    width: 600px;
+    margin-left: 650px;
+}
+.whatWeDo img {
+    float: left;
+}
+.whatWeDo h2{
+    font-size: 44px;
+    margin-left: 170px;
+}
+.whatWeDo p {
+    font-size: 17px;
+}

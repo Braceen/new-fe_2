@@ -1,0 +1,17 @@
+.whatWeDo {
+    font-family: "Open Sans";
+    color: #393b3c;
+    height: 200px;
+    width: 600px;
+    margin-left: 650px;
+}
+.whatWeDo img {
+    float: left;
+}
+.whatWeDo h2{
+    font-size: 44px;
+    margin-left: 170px;
+}
+.whatWeDo p {
+    font-size: 17px;
+}

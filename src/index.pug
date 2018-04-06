@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    link(rel= "stylesheet", href="style.css")
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700', rel='stylesheet')
+    link(rel= "stylesheet", href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
+    meta(charset = "utf-8")
+    meta(name = "viewport", content = "initial-scale=1.0, width=device-width")
+    title Fe-2 the best
+  body
+    .wrapper
+      .header
+        include header/_head
+      .company
+        include jumbotron/_jumbotron
+      .projects
+        include section_about/_about
+      .team
+        include section_we_do/_we_do
+      .location
+        include section_projects/_projects
+      .team
+        include section_our_team/_team
+      .map
+        include section_map/_map
+      .footer
+        include footer/_footer
