@@ -131,16 +131,16 @@ header{
         .logo-nav_links i{
             margin: 18px;
         }
-        .logo-nav_links a:last-child{
+        .logo-nav_links a:last-child {
             border-right: none;
         }
-
-
-header nav{
-        height: 85px;
-        background: #342F85;
-        }
-.company {
+nav{
+    background: red;
+}
+nav ul li {
+    display: inline-block;
+}
+.jumbotron {
     height: 884px;
     background-image: url("img/lets.png");
     background-size: contain;
@@ -161,7 +161,7 @@ h1 {
     color: white;
     text-shadow: 1px 1px 70px black;
 }
-.company p {
+.jumbotron p {
     margin-top: -6px;
     padding-left: 720px;
     font-size: 45px;

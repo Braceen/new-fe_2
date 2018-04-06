@@ -1,4 +1,4 @@
-.company {
+.jumbotron {
     height: 884px;
     background-image: url("img/lets.png");
     background-size: contain;
@@ -19,7 +19,7 @@ h1 {
     color: white;
     text-shadow: 1px 1px 70px black;
 }
-.company p {
+.jumbotron p {
     margin-top: -6px;
     padding-left: 720px;
     font-size: 45px;
