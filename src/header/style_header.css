@@ -138,11 +138,12 @@ nav{
     border-top: 1px solid #eceef4;
 }
 nav ul{
-    margin-left: 21%;
+    margin-left: 19%;
+    float: left;
 }
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 nav ul a{
     color: #6d6e71;
@@ -151,5 +152,29 @@ nav ul a{
     padding-top: 20px;
     height: 40px;
     border-right: 1px solid #eceef4;
-    margin: 0 10px;
+    margin: 0 5px;
+}
+.nav_search{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 66.5%;
+}
+.nav_search p{
+    display: inline-block;
+    color: #6d6e71;
+    margin: 0;
+    position: absolute;
+    top: 3px;
+    margin-left: 10px;
+}
+.nav_search i{
+    font-size: 25px;
+    color: #6d6e71;
+}
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }
