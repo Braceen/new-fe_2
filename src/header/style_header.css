@@ -87,6 +87,9 @@ header{
         margin-top: 60px;
         display: inline-block;
     }
+    .links i{
+        margin-right: 10px;
+    }
         header .logo-nav .logo p{
             margin-top: 23px;
         }
@@ -102,8 +105,10 @@ header{
         .call{
             float: right;
             margin-right: 21%;
-            margin-top: 50px;
-            position: relative;
+            position: absolute;
+            top: 160px;
+            left: 750px;
+            height: 150px;
         }
         header .call_links{
             position: absolute;
@@ -119,9 +124,6 @@ header{
             font-weight: bold;
             width: 220px;
             margin-left: 14px;
-        }
-        .ion-ios-location-outline{
-            color: #1faae2;
         }
         .logo-nav_links a{
             border-right: 1px solid #bcbec3;
@@ -159,7 +161,7 @@ nav ul a{
     margin-top: 15px;
     margin-left: 66.5%;
 }
-.nav_search p{
+.nav_search input{
     display: inline-block;
     color: #6d6e71;
     margin: 0;
@@ -175,10 +177,12 @@ nav ul a{
     display: none;
 }
 .social div i:hover{
-    color: #acacac;
+    color: #1faae2;
     text-shadow: 2px 1px black;
 }
-
+*{
+    transition: all 0.1s;
+}
 .ul_min{
     position: absolute;
     left: -500px;
@@ -205,7 +209,12 @@ nav ul a{
     display: table;
     clear: both;
 }
-
+.ul_min ul a:hover{
+    color: #1faae2;
+}
+.ul_min ul i{
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 930px) {
     .social {
@@ -261,4 +270,26 @@ nav ul a{
     .ul_min{
         display: none;
     }
+}
+
+header a:hover{
+    color: #1faae2;
+}
+.links ul a:hover{
+    color: #1faae2;
+}
+header input[type="search"]{
+    border: none;
+    outline: none;
+}
+.gps{
+    display: none;
+    position: absolute;
+    top: -70px;
+}
+.visiblee{
+    display: block;
+}
+.logo-nav_links {
+    position: absolute;
 }
